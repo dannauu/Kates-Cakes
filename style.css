@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        font-family: 'Cookie', cursive;
+        background-image: url(./assets/images/background.gif);
+    }
+
+    .header {
+        padding-left: 120px;
+    }
+
+    .col-md-2 {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+        margin-top: 12px;
+    }
+
+    .navBtns {
+        width: 80%;
+        border: solid purple 2px;
+        border-radius: 25px;
+        background-color: rgb(253, 135, 155);
+    }
+
+    .headerImg {
+        height: 200px;
+        width: auto;
+    }
+
+    .fa-images {
+        margin-right: 6px;
+    }
+
+    .fa-birthday-cake {
+        margin-right: 6px;
+    }
+
+    .headerPic {
+        height: 200px;
+    }
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 292px;
+margin-top: 20px;
+margin-bottom: auto;
+width: 400px;
+background-color: rgb(253, 135, 155);
+border-radius: 20px;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: purple;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -9px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: purple;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: purple;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
