@@ -7,11 +7,15 @@ const userSchema = new Schema({
     type: String,
     trim: true,
     required: "Enter a username between 6 and 32 characters",
+    minlength: 6,
+    maxlength: 32,
     unique: true
   },
   password: {
     type: String,
-    required: "Please enter a password between 6 and 32 characters"
+    required: "Please enter a password between 6 and 32 characters",
+    minlength: 6,
+    maxlength: 32,
   },
   dateJoined: {
     type: Date,

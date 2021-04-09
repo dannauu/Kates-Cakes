@@ -137,3 +137,15 @@ margin-left: 4px;
     display: flex;
     justify-content: center;
 }
+
+.passwordInputError {
+    background-color: red;
+}
+
+.text-decoration-none {
+    color: rgb(255, 108, 132);
+}
+
+.text-decoration-none:hover {
+    color: purple;
+}

@@ -21,7 +21,7 @@ signUpBtn.addEventListener("click", function (e) {
     dateJoined: new Date().toISOString(),
   };
 
-  console.log(user);
+  // console.log(user);
 
   fetch("/api/user", {
     method: "POST",
@@ -33,11 +33,13 @@ signUpBtn.addEventListener("click", function (e) {
   })
     .then(response => response.json())
     .then(data => {
-        console.log('Success:', data)
+        console.log(data)
     })
-    .catch((err) => {
-      // fetch failed, so save in indexed db
-      console.log(err);
+    .catch(err => {
+      console.log(err)
+
+      let errEl = document.getElementById('signUpH3')
+      errEl.innerHTML = 'asdasd'
       // clear form
       usernameInput.value = "";
       passwordInput.value = "";
