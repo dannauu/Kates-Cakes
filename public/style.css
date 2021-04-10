@@ -4,7 +4,8 @@
     }
 
     body {
-        font-family: 'Cookie', cursive;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
         background-image: url(./assets/images/background.gif);
     }
 
@@ -119,6 +120,7 @@ background-color: white;
 
 .links{
 color: white;
+font-size: 20px;
 }
 
 .links a{
@@ -148,4 +150,38 @@ margin-left: 4px;
 
 .text-decoration-none:hover {
     color: purple;
+}
+
+#signUp {
+    color: white;
+    font-size: 20px;
+}
+
+#forgotPass {
+    color: white;
+    font-size: 15px;
+}
+
+.carousel-inner {
+    height: 450px;
+    width: 800px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.slide {
+    border: solid 20px purple;
+    border-radius: 10px;
+}
+
+.carouselContainer {
+    margin-top: 100px;
+}
+
+.galleryH1 {
+    font-size: 80px;
+    font-weight: 1000;
 }
